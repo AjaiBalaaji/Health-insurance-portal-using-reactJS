@@ -1,0 +1,32 @@
+/* styles.css */
+
+.flashcard {
+    width: 200px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flashcard .card-content {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .flashcard h3 {
+    margin: 0;
+  }
+  
+  .flashcard p {
+    margin: 0;
+  }
+  
+  .flashcard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px;
+  }
+  
